@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/chimney_detailed.obj-b17800b07dabf46c29c8ec3702e5e95a.mesh"
+
+[deps]
+
+files=[ "res://.import/chimney_detailed.obj-b17800b07dabf46c29c8ec3702e5e95a.mesh" ]
+
+source_file="res://Models/OBJ format/chimney_detailed.obj"
+dest_files=[ "res://.import/chimney_detailed.obj-b17800b07dabf46c29c8ec3702e5e95a.mesh", "res://.import/chimney_detailed.obj-b17800b07dabf46c29c8ec3702e5e95a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

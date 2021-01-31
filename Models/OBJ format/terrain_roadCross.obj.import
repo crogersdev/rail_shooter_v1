@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/terrain_roadCross.obj-7e3a5de6b4e243b8bc64a340c62dd96e.mesh"
+
+[deps]
+
+files=[ "res://.import/terrain_roadCross.obj-7e3a5de6b4e243b8bc64a340c62dd96e.mesh" ]
+
+source_file="res://Models/OBJ format/terrain_roadCross.obj"
+dest_files=[ "res://.import/terrain_roadCross.obj-7e3a5de6b4e243b8bc64a340c62dd96e.mesh", "res://.import/terrain_roadCross.obj-7e3a5de6b4e243b8bc64a340c62dd96e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

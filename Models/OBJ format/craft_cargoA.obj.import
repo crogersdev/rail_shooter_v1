@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/craft_cargoA.obj-1ac5228ec95b314d299ce94e0249e16e.mesh"
+
+[deps]
+
+files=[ "res://.import/craft_cargoA.obj-1ac5228ec95b314d299ce94e0249e16e.mesh" ]
+
+source_file="res://Models/OBJ format/craft_cargoA.obj"
+dest_files=[ "res://.import/craft_cargoA.obj-1ac5228ec95b314d299ce94e0249e16e.mesh", "res://.import/craft_cargoA.obj-1ac5228ec95b314d299ce94e0249e16e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

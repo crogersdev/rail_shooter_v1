@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/alien.obj-d1d05026dcfea738de04444f2c79803e.mesh"
+
+[deps]
+
+files=[ "res://.import/alien.obj-d1d05026dcfea738de04444f2c79803e.mesh" ]
+
+source_file="res://Models/OBJ format/alien.obj"
+dest_files=[ "res://.import/alien.obj-d1d05026dcfea738de04444f2c79803e.mesh", "res://.import/alien.obj-d1d05026dcfea738de04444f2c79803e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

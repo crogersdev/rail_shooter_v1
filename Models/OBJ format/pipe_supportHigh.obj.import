@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/pipe_supportHigh.obj-5dfee5ad6a45556cbc4f99a8d7956d05.mesh"
+
+[deps]
+
+files=[ "res://.import/pipe_supportHigh.obj-5dfee5ad6a45556cbc4f99a8d7956d05.mesh" ]
+
+source_file="res://Models/OBJ format/pipe_supportHigh.obj"
+dest_files=[ "res://.import/pipe_supportHigh.obj-5dfee5ad6a45556cbc4f99a8d7956d05.mesh", "res://.import/pipe_supportHigh.obj-5dfee5ad6a45556cbc4f99a8d7956d05.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

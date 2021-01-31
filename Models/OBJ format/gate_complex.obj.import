@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/gate_complex.obj-81b04f873f4d7b2be8c8de1dab56f4af.mesh"
+
+[deps]
+
+files=[ "res://.import/gate_complex.obj-81b04f873f4d7b2be8c8de1dab56f4af.mesh" ]
+
+source_file="res://Models/OBJ format/gate_complex.obj"
+dest_files=[ "res://.import/gate_complex.obj-81b04f873f4d7b2be8c8de1dab56f4af.mesh", "res://.import/gate_complex.obj-81b04f873f4d7b2be8c8de1dab56f4af.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
