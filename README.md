@@ -3,4 +3,4 @@ godot rail shooter -- wannabe starfox 64 clone
 
 pew pew pew
 
-![space ship](https://github.com/crogersdev/rails_shooter_v1/blob/main/railshooterv1.png?raw=true)
+![space ship](https://github.com/crogersdev/rail_shooter_v1/blob/main/railshooterv1.png?raw=true)
