@@ -7,7 +7,7 @@
 [sub_resource type="PlaneMesh" id=1]
 
 [sub_resource type="Gradient" id=2]
-offsets = PoolRealArray( 0.292683, 0.997967, 1 )
+offsets = PoolRealArray( 0, 0.997967, 1 )
 colors = PoolColorArray( 0.244087, 0, 0.583984, 1, 0, 0.837891, 0.121101, 1, 1, 1, 1, 1 )
 
 [sub_resource type="GradientTexture" id=3]
@@ -20,7 +20,7 @@ albedo_texture = SubResource( 3 )
 script = ExtResource( 3 )
 
 [node name="Ground" type="MeshInstance" parent="."]
-transform = Transform( -6.51683e-06, 0, -100, 0, 100, 0, 40, 0, -1.62921e-05, 0, 0, 15 )
+transform = Transform( -6.51683e-06, 0, -5, 0, 0, 0, 40, 0, -8.14603e-07, 0, 0, 15 )
 mesh = SubResource( 1 )
 material/0 = SubResource( 4 )
 
