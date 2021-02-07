@@ -19,6 +19,12 @@ config/name="rail_shooter_v1"
 run/main_scene="res://Level1.tscn"
 config/icon="res://icon.png"
 
+[display]
+
+window/size/width=1280
+window/size/height=720
+window/size/resizable=false
+
 [input]
 
 rotate_x={
