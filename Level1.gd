@@ -5,8 +5,8 @@ onready var dolly = $Path/Dolly
 onready var camera = $Path/Dolly/Camera
 
 var dolly_speed = 1
-
 var strafe_speed = 3
+
 var turning_left = false
 var turning_right = false
 
@@ -32,10 +32,10 @@ func get_input(delta):
 		ship.transform.origin.x -= delta * strafe_speed
 
 	if Input.is_action_pressed("ui_up"):
-		ship.translate(ship.transform.basis.y * delta)
+		ship.transform.origin.y += delta * strafe_speed
 		
 	if Input.is_action_pressed("ui_down"):
-		ship.translate(-1 * ship.transform.basis.y * delta)
+		ship.transform.origin.y -= delta * strafe_speed
 
 func move_camera():
 	var orig = lerp(
