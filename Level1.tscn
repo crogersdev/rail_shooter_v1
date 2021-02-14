@@ -56,13 +56,17 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
 rotation_mode = 0
 
 [node name="Target" parent="Path/Dolly" instance=ExtResource( 5 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -1 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, -1, 0, 1, -2 )
 
-[node name="Ship" parent="Path/Dolly" instance=ExtResource( 1 )]
+[node name="Ship" parent="Path/Dolly" groups=[
+"ship",
+] instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.794, -4 )
 script = null
 
-[node name="Camera" type="Camera" parent="Path/Dolly"]
-transform = Transform( -1, 0, -3.25841e-07, 0, 1, 0, 3.25841e-07, 0, -1, 0, 1.5, -10 )
+[node name="Camera" type="Camera" parent="Path/Dolly" groups=[
+"camera",
+]]
+transform = Transform( -1, 0, 3.25841e-07, 0, 1, 0, -3.25841e-07, 0, -1, 0, 1.5, -10 )
 current = true
 far = 395.7
