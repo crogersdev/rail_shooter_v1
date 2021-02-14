@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://RayCast.gd" type="Script" id=1]
+
+[sub_resource type="SpatialMaterial" id=1]
+albedo_color = Color( 1, 1, 0, 0.643137 )
+
+[node name="Target" type="Position3D"]
+
+[node name="CSGBox" type="CSGBox" parent="."]
+transform = Transform( 0.25, 0, 0, 0, 0.25, 0, 0, 0, 0.1, 0, 0, 0 )
+material = SubResource( 1 )
+
+[node name="RayCast" type="RayCast" parent="."]
+cast_to = Vector3( 0.2, 0.2, 100 )
+script = ExtResource( 1 )

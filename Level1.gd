@@ -1,48 +1,67 @@
 extends Spatial
 
+onready var target = $Path/Dolly/Target
 onready var ship = $Path/Dolly/Ship
 onready var dolly = $Path/Dolly
 onready var camera = $Path/Dolly/Camera
 
-var dolly_speed = 1
-var strafe_speed = 3
+var dolly_speed = 50
+var strafe_speed = 100
 
 var turning_left = false
 var turning_right = false
 
-var z_rotation = 0.0
-var max_z_rotation = 99.0
-var barrel_roll = false
-var barrel_roll_finished = 0.0
-
 func _physics_process(delta):
 	dolly.offset += delta * dolly_speed
 	get_input(delta)
-	#move_camera()
-	
-func _process(delta):
-	var fps = Engine.get_frames_per_second()
-	# var lerp_interval = 
-	
-func get_input(delta):
-	if Input.is_action_pressed("ui_left"):
-		ship.transform.origin.x += delta * strafe_speed
-		
-	if Input.is_action_pressed("ui_right"):
-		ship.transform.origin.x -= delta * strafe_speed
+	move_ship(delta)
+	move_camera()
 
+func get_input(delta):
 	if Input.is_action_pressed("ui_up"):
-		ship.transform.origin.y += delta * strafe_speed
-		
+		target.transform.origin.y += -strafe_speed * delta
+
 	if Input.is_action_pressed("ui_down"):
-		ship.transform.origin.y -= delta * strafe_speed
+		target.transform.origin.y += strafe_speed * delta
+
+	if Input.is_action_pressed("ui_right"):
+		target.transform.origin.x = delta * strafe_speed
+		turning_right = true
+	else:
+		turning_right = false
+
+	if Input.is_action_pressed("ui_left"):
+		target.transform.origin.x += -delta * strafe_speed
+		turning_left = true
+	else:
+		turning_left = false
+	
+	# straighten us out
+	if !turning_left and !turning_right:
+		target.transform.origin.x = lerp(target.transform.origin.x, ship.transform.origin.x, 0.05)
+		target.transform.origin.y = lerp(target.transform.origin.y, ship.transform.origin.y, 0.05)
+
+	target.transform.origin.y = clamp(target.transform.origin.y, -70.0, 70.0)
+	target.transform.origin.x = clamp(target.transform.origin.x, -100.0, 100.0)
+
+func move_ship(delta):
+	var desired_rotation = ship.transform.looking_at(target.transform.origin, Vector3(0, 1, 0))
+	
+	var rotation = Quat(
+		ship.transform.basis.get_rotation_quat()
+	).slerp(
+		desired_rotation.basis.get_rotation_quat(),
+		0.2
+	)
+	
+	var velocity = (target.transform.origin + Vector3(0, 0, 50)) - ship.transform.origin
+	velocity = ship.move_and_slide(velocity, Vector3(0, 1, 0))
+	ship.transform.origin.x = clamp(ship.transform.origin.x, -50.0, 50.0)
+	ship.transform.origin.y = clamp(ship.transform.origin.y, -70.0, 70.0)
+	ship.set_transform(Transform(rotation, ship.transform.origin))
 
 func move_camera():
-	var orig = lerp(
-		camera.transform.origin,
-		ship.transform.origin + Vector3(0, 1, 5),
-		0.04
-	)
+	var orig = lerp(camera.transform.origin, ship.transform.origin + Vector3(0, 10, 50), 0.04)
 	orig.x = clamp(orig.x, -50.0, 50.0)
 	orig.y = clamp(orig.y, -30.0, 30.0)
 	
