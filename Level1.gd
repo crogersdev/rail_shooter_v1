@@ -5,10 +5,9 @@ onready var ship = $Path/Dolly/Ship
 onready var dolly = $Path/Dolly
 onready var camera = $Path/Dolly/Camera
 
-var dolly_speed = 5
+var dolly_speed = 10
 var strafe_speed = 20
 var ship_rotation_slerp_speed = 0.4
-var straighten_out_speed = 0.05
 var camera_lerp_speed = 0.04
 
 var turning_left = false
@@ -39,22 +38,11 @@ func get_input(delta):
 		turning_left = true
 	else:
 		turning_left = false
-		
-	# straighten us out
-	if !turning_left and !turning_right:
-		target.transform.origin.x = lerp(
-			target.transform.origin.x,
-			ship.transform.origin.x,
-			straighten_out_speed
-		)
-		target.transform.origin.y = lerp(
-			target.transform.origin.y,
-			ship.transform.origin.y,
-			straighten_out_speed
-		)
 
-	target.transform.origin.y = clamp(target.transform.origin.y, 0, 6.0)
+	target.transform.origin.y = clamp(target.transform.origin.y, -2, 6.0)
 	target.transform.origin.x = clamp(target.transform.origin.x, -7.0, 7.0)
+	
+	print(target.transform.origin)
 
 func move_ship(delta):
 	var desired_rotation = ship.transform.looking_at(target.transform.origin, Vector3(0, 1, 0))
