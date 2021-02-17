@@ -57,8 +57,6 @@ func move_ship(delta):
 		0.02
 	)
 
-	#                                 LR = left/right, UD = up/down, FB = front/back
-	#                                                 LR  UD  FB
 	var velocity = (
 		target.transform.origin + Vector3(00, 00, dolly_speed)
 	) - ship.transform.origin
