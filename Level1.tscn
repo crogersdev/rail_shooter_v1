@@ -61,6 +61,12 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 10 )
 rotation_mode = 0
 
 [node name="Target" type="Position3D" parent="Path/Dolly"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5 )
+
+[node name="CSGBox" type="CSGBox" parent="Path/Dolly/Target"]
+width = 0.5
+height = 0.5
+depth = 0.5
 
 [node name="Camera" type="Camera" parent="Path/Dolly"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 10 )
