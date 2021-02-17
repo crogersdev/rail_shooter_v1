@@ -7,6 +7,7 @@ onready var camera = $Path/Dolly/Camera
 
 var dolly_speed = 5
 var strafe_speed = 20
+var ship_rotation_slerp_speed = 0.4
 
 var turning_left = false
 var turning_right = false
@@ -46,15 +47,12 @@ func get_input(delta):
 	target.transform.origin.x = clamp(target.transform.origin.x, -7.0, 7.0)
 
 func move_ship(delta):
-	
-
-
 	var desired_rotation = ship.transform.looking_at(target.transform.origin, Vector3(0, 1, 0))
 	var rotation = Quat(
 		ship.transform.basis.get_rotation_quat()
 	).slerp(
 		desired_rotation.basis.get_rotation_quat(),
-		0.02
+		ship_rotation_slerp_speed
 	)
 
 	var velocity = (
