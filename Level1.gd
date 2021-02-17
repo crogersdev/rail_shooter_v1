@@ -9,6 +9,7 @@ var dolly_speed = 5
 var strafe_speed = 20
 var ship_rotation_slerp_speed = 0.4
 var straighten_out_speed = 0.05
+var camera_lerp_speed = 0.04
 
 var turning_left = false
 var turning_right = false
@@ -78,7 +79,11 @@ func move_camera():
 	# an offset.  moving 'forward' in the level is a +Z movement, so we want to stay
 	# behind the ship...  which means we stay -5 behind :D
 	# todo: make it configurable and not hardcoded
-	var orig = lerp(camera.transform.origin, ship.transform.origin + Vector3(0, 1, 5), 0.04)
+	var orig = lerp(
+		camera.transform.origin,
+		ship.transform.origin + Vector3(0, 1, 5),
+		camera_lerp_speed
+	)
 	orig.x = clamp(orig.x, -50.0, 50.0)
 	orig.y = clamp(orig.y, -30.0, 30.0)
 	camera.transform.origin = orig
