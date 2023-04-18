@@ -16,4 +16,5 @@ dest_files=[ "res://.import/craft_speederB.obj-6cace2d5dd7f2eed5565857312c6fe39.
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
 offset_mesh=Vector3( 0, 0, 0 )
-optimize_mesh=true
+octahedral_compression=true
+optimize_mesh_flags=4286

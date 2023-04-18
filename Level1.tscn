@@ -57,7 +57,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -21 )
 curve = SubResource( 5 )
 
 [node name="Dolly" type="PathFollow" parent="Path"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 10 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0016129, 0, 14.8177 )
 rotation_mode = 0
 
 [node name="Target" type="Position3D" parent="Path/Dolly"]
