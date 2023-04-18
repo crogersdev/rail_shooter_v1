@@ -1,11 +1,5 @@
 extends Spatial
 
-# "export" lets us change these in the Inspector
-export var dolly_speed = 10
-export var strafe_speed = 15
-export var ship_rotation_slerp_speed = .4
-export var camera_lerp_speed = 0.04
-
 onready var target = $Path/Dolly/Target
 onready var ship = $Path/Dolly/Ship
 onready var dolly = $Path/Dolly
@@ -13,9 +7,11 @@ onready var camera = $Path/Dolly/Camera
 
 # export lets us change these in the Inspector
 export var dolly_speed = 10
-export var strafe_speed = 30
-export var ship_rotation_slerp_speed = .1
-export var camera_lerp_speed = 0.08
+export var strafe_speed = 15
+export var ship_rotation_slerp_speed = .4
+export var camera_lerp_speed = 0.04
+
+# todo: make this guy part of max rotation
 export var max_rotation_angle = deg2rad(30)
 
 var turning_left = false
