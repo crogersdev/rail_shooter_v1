@@ -53,10 +53,10 @@ func move_ship(delta):
 	velocity = ship.move_and_slide(velocity * 2, Vector3(0, 1, 0))
 	
 	if Input.is_action_pressed("ui_right"):
-		rotation *= Quat(Vector3(0, 0, 1), -0.2)
+		rotation *= Quat(Vector3(0, 0, 1), -0.05)
 		
 	if Input.is_action_pressed("ui_left"):
-		rotation *= Quat(Vector3(0, 0, 1), 0.2)
+		rotation *= Quat(Vector3(0, 0, 1), 0.05)
 	
 	ship.transform.origin.y = clamp(ship.transform.origin.y, -7.0, 7.0)
 	ship.transform.origin.x = clamp(ship.transform.origin.x, -10.0, 10.0)
