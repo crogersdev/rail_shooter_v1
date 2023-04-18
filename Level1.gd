@@ -11,6 +11,11 @@ onready var ship = $Path/Dolly/Ship
 onready var dolly = $Path/Dolly
 onready var camera = $Path/Dolly/Camera
 
+var dolly_speed = 10
+var strafe_speed = 30
+var ship_rotation_slerp_speed = .1
+var camera_lerp_speed = 0.08
+var max_rotation_angle = deg2rad(30)
 
 var turning_left = false
 var turning_right = false
@@ -52,8 +57,16 @@ func move_ship(delta):
 	) - ship.transform.origin
 
 	velocity = ship.move_and_slide(velocity * 2, Vector3(0, 1, 0))
+	
+	if Input.is_action_pressed("ui_right"):
+		rotation *= Quat(Vector3(0, 0, 1), -0.05)
+		
+	if Input.is_action_pressed("ui_left"):
+		rotation *= Quat(Vector3(0, 0, 1), 0.05)
+	
 	ship.transform.origin.y = clamp(ship.transform.origin.y, -7.0, 7.0)
 	ship.transform.origin.x = clamp(ship.transform.origin.x, -10.0, 10.0)
+
 	ship.set_transform(Transform(rotation, ship.transform.origin))
 
 func move_camera():
