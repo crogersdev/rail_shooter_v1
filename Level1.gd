@@ -5,11 +5,12 @@ onready var ship = $Path/Dolly/Ship
 onready var dolly = $Path/Dolly
 onready var camera = $Path/Dolly/Camera
 
-var dolly_speed = 10
-var strafe_speed = 30
-var ship_rotation_slerp_speed = .1
-var camera_lerp_speed = 0.08
-var max_rotation_angle = deg2rad(30)
+# export lets us change these in the Inspector
+export var dolly_speed = 10
+export var strafe_speed = 30
+export var ship_rotation_slerp_speed = .1
+export var camera_lerp_speed = 0.08
+export var max_rotation_angle = deg2rad(30)
 
 var turning_left = false
 var turning_right = false
@@ -70,7 +71,7 @@ func move_camera():
 	# todo: make it configurable and not hardcoded
 	var orig = lerp(
 		camera.transform.origin,
-		ship.transform.origin + Vector3(0, 1, 5),
+		ship.transform.origin + Vector3(0, 2, 5),
 		camera_lerp_speed
 	)
 	orig.x = clamp(orig.x, -50.0, 50.0)
