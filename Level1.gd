@@ -1,5 +1,11 @@
 extends Spatial
 
+# "export" lets us change these in the Inspector
+export var dolly_speed = 10
+export var strafe_speed = 15
+export var ship_rotation_slerp_speed = .4
+export var camera_lerp_speed = 0.04
+
 onready var target = $Path/Dolly/Target
 onready var ship = $Path/Dolly/Ship
 onready var dolly = $Path/Dolly
