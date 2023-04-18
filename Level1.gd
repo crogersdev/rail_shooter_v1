@@ -1,14 +1,16 @@
 extends Spatial
 
+# "export" lets us change these in the Inspector
+export var dolly_speed = 10
+export var strafe_speed = 15
+export var ship_rotation_slerp_speed = .4
+export var camera_lerp_speed = 0.04
+
 onready var target = $Path/Dolly/Target
 onready var ship = $Path/Dolly/Ship
 onready var dolly = $Path/Dolly
 onready var camera = $Path/Dolly/Camera
 
-var dolly_speed = 10
-var strafe_speed = 30
-var ship_rotation_slerp_speed = .4
-var camera_lerp_speed = 0.04
 
 var turning_left = false
 var turning_right = false
@@ -61,7 +63,7 @@ func move_camera():
 	# todo: make it configurable and not hardcoded
 	var orig = lerp(
 		camera.transform.origin,
-		ship.transform.origin + Vector3(0, 1, 5),
+		ship.transform.origin + Vector3(0, 2, 5),
 		camera_lerp_speed
 	)
 	orig.x = clamp(orig.x, -50.0, 50.0)

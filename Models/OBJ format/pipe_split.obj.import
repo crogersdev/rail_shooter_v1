@@ -16,4 +16,5 @@ dest_files=[ "res://.import/pipe_split.obj-0a0452aaf5dd3b4ded8bf3566d157eee.mesh
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
 offset_mesh=Vector3( 0, 0, 0 )
-optimize_mesh=true
+octahedral_compression=true
+optimize_mesh_flags=4286
