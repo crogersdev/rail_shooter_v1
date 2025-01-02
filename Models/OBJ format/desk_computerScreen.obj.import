@@ -1,20 +1,22 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/desk_computerScreen.obj-c405adf2d80ac9baeaae415b2e8f1479.mesh"
+uid="uid://beidr0y8ol3to"
+path="res://.godot/imported/desk_computerScreen.obj-c405adf2d80ac9baeaae415b2e8f1479.mesh"
 
 [deps]
 
-files=[ "res://.import/desk_computerScreen.obj-c405adf2d80ac9baeaae415b2e8f1479.mesh" ]
+files=["res://.godot/imported/desk_computerScreen.obj-c405adf2d80ac9baeaae415b2e8f1479.mesh"]
 
 source_file="res://Models/OBJ format/desk_computerScreen.obj"
-dest_files=[ "res://.import/desk_computerScreen.obj-c405adf2d80ac9baeaae415b2e8f1479.mesh", "res://.import/desk_computerScreen.obj-c405adf2d80ac9baeaae415b2e8f1479.mesh" ]
+dest_files=["res://.godot/imported/desk_computerScreen.obj-c405adf2d80ac9baeaae415b2e8f1479.mesh", "res://.godot/imported/desk_computerScreen.obj-c405adf2d80ac9baeaae415b2e8f1479.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
-optimize_mesh_flags=4286
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,20 +1,22 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/machine_wirelessCable.obj-312de909e2edcf0d81e7231c7dfdfb3f.mesh"
+uid="uid://b40mgmk7sreqb"
+path="res://.godot/imported/machine_wirelessCable.obj-312de909e2edcf0d81e7231c7dfdfb3f.mesh"
 
 [deps]
 
-files=[ "res://.import/machine_wirelessCable.obj-312de909e2edcf0d81e7231c7dfdfb3f.mesh" ]
+files=["res://.godot/imported/machine_wirelessCable.obj-312de909e2edcf0d81e7231c7dfdfb3f.mesh"]
 
 source_file="res://Models/OBJ format/machine_wirelessCable.obj"
-dest_files=[ "res://.import/machine_wirelessCable.obj-312de909e2edcf0d81e7231c7dfdfb3f.mesh", "res://.import/machine_wirelessCable.obj-312de909e2edcf0d81e7231c7dfdfb3f.mesh" ]
+dest_files=["res://.godot/imported/machine_wirelessCable.obj-312de909e2edcf0d81e7231c7dfdfb3f.mesh", "res://.godot/imported/machine_wirelessCable.obj-312de909e2edcf0d81e7231c7dfdfb3f.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
-optimize_mesh_flags=4286
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

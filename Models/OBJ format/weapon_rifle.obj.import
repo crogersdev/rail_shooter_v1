@@ -1,20 +1,22 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/weapon_rifle.obj-97c7b4a2c0faf07c28355182f6d6e167.mesh"
+uid="uid://c8m8j1lhjxqqm"
+path="res://.godot/imported/weapon_rifle.obj-97c7b4a2c0faf07c28355182f6d6e167.mesh"
 
 [deps]
 
-files=[ "res://.import/weapon_rifle.obj-97c7b4a2c0faf07c28355182f6d6e167.mesh" ]
+files=["res://.godot/imported/weapon_rifle.obj-97c7b4a2c0faf07c28355182f6d6e167.mesh"]
 
 source_file="res://Models/OBJ format/weapon_rifle.obj"
-dest_files=[ "res://.import/weapon_rifle.obj-97c7b4a2c0faf07c28355182f6d6e167.mesh", "res://.import/weapon_rifle.obj-97c7b4a2c0faf07c28355182f6d6e167.mesh" ]
+dest_files=["res://.godot/imported/weapon_rifle.obj-97c7b4a2c0faf07c28355182f6d6e167.mesh", "res://.godot/imported/weapon_rifle.obj-97c7b4a2c0faf07c28355182f6d6e167.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
-optimize_mesh_flags=4286
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

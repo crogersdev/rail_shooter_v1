@@ -1,20 +1,22 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/terrain_roadStraight.obj-616321d9437307b1d6edd51960c37907.mesh"
+uid="uid://cfqu11v3i0fmo"
+path="res://.godot/imported/terrain_roadStraight.obj-616321d9437307b1d6edd51960c37907.mesh"
 
 [deps]
 
-files=[ "res://.import/terrain_roadStraight.obj-616321d9437307b1d6edd51960c37907.mesh" ]
+files=["res://.godot/imported/terrain_roadStraight.obj-616321d9437307b1d6edd51960c37907.mesh"]
 
 source_file="res://Models/OBJ format/terrain_roadStraight.obj"
-dest_files=[ "res://.import/terrain_roadStraight.obj-616321d9437307b1d6edd51960c37907.mesh", "res://.import/terrain_roadStraight.obj-616321d9437307b1d6edd51960c37907.mesh" ]
+dest_files=["res://.godot/imported/terrain_roadStraight.obj-616321d9437307b1d6edd51960c37907.mesh", "res://.godot/imported/terrain_roadStraight.obj-616321d9437307b1d6edd51960c37907.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
-optimize_mesh_flags=4286
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

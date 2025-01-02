@@ -1,22 +1,17 @@
-extends KinematicBody
+extends CharacterBody3D
 
-export var bullet_speed = 100.0
+@export var bullet_speed = 100.0
 
-onready var Bullet = preload("res://Bullet.tscn")
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
+@onready var Bullet = preload("res://Bullet.tscn")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
 
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	if (Input.is_action_just_pressed("fire")):
-		var new_bullet = Bullet.instance()
+		var new_bullet = Bullet.instantiate()
 		
 		new_bullet.add_to_group("player_bullets")
 		
@@ -33,7 +28,7 @@ func _process(delta):
 		get_tree().root.add_child(new_bullet)
 		
 		# Wait 1.0 seconds
-		yield(get_tree().create_timer(1.0), "timeout")
+		await get_tree().create_timer(1.0).timeout
 		
 		# Delete the bullet
 		new_bullet.queue_free()

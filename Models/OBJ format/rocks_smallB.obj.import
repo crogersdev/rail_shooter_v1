@@ -1,20 +1,22 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/rocks_smallB.obj-1dba605b852911f6b2fb1e5ff294f95a.mesh"
+uid="uid://d2v1joamtfhcu"
+path="res://.godot/imported/rocks_smallB.obj-1dba605b852911f6b2fb1e5ff294f95a.mesh"
 
 [deps]
 
-files=[ "res://.import/rocks_smallB.obj-1dba605b852911f6b2fb1e5ff294f95a.mesh" ]
+files=["res://.godot/imported/rocks_smallB.obj-1dba605b852911f6b2fb1e5ff294f95a.mesh"]
 
 source_file="res://Models/OBJ format/rocks_smallB.obj"
-dest_files=[ "res://.import/rocks_smallB.obj-1dba605b852911f6b2fb1e5ff294f95a.mesh", "res://.import/rocks_smallB.obj-1dba605b852911f6b2fb1e5ff294f95a.mesh" ]
+dest_files=["res://.godot/imported/rocks_smallB.obj-1dba605b852911f6b2fb1e5ff294f95a.mesh", "res://.godot/imported/rocks_smallB.obj-1dba605b852911f6b2fb1e5ff294f95a.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
-optimize_mesh_flags=4286
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

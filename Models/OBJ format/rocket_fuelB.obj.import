@@ -1,20 +1,22 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/rocket_fuelB.obj-d45c0d987e4453b810991650dd3e5101.mesh"
+uid="uid://bm37jpduw6thd"
+path="res://.godot/imported/rocket_fuelB.obj-d45c0d987e4453b810991650dd3e5101.mesh"
 
 [deps]
 
-files=[ "res://.import/rocket_fuelB.obj-d45c0d987e4453b810991650dd3e5101.mesh" ]
+files=["res://.godot/imported/rocket_fuelB.obj-d45c0d987e4453b810991650dd3e5101.mesh"]
 
 source_file="res://Models/OBJ format/rocket_fuelB.obj"
-dest_files=[ "res://.import/rocket_fuelB.obj-d45c0d987e4453b810991650dd3e5101.mesh", "res://.import/rocket_fuelB.obj-d45c0d987e4453b810991650dd3e5101.mesh" ]
+dest_files=["res://.godot/imported/rocket_fuelB.obj-d45c0d987e4453b810991650dd3e5101.mesh", "res://.godot/imported/rocket_fuelB.obj-d45c0d987e4453b810991650dd3e5101.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
-optimize_mesh_flags=4286
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

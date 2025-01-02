@@ -1,20 +1,22 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/chimney_detailed.obj-b17800b07dabf46c29c8ec3702e5e95a.mesh"
+uid="uid://m70ygcmrgigr"
+path="res://.godot/imported/chimney_detailed.obj-b17800b07dabf46c29c8ec3702e5e95a.mesh"
 
 [deps]
 
-files=[ "res://.import/chimney_detailed.obj-b17800b07dabf46c29c8ec3702e5e95a.mesh" ]
+files=["res://.godot/imported/chimney_detailed.obj-b17800b07dabf46c29c8ec3702e5e95a.mesh"]
 
 source_file="res://Models/OBJ format/chimney_detailed.obj"
-dest_files=[ "res://.import/chimney_detailed.obj-b17800b07dabf46c29c8ec3702e5e95a.mesh", "res://.import/chimney_detailed.obj-b17800b07dabf46c29c8ec3702e5e95a.mesh" ]
+dest_files=["res://.godot/imported/chimney_detailed.obj-b17800b07dabf46c29c8ec3702e5e95a.mesh", "res://.godot/imported/chimney_detailed.obj-b17800b07dabf46c29c8ec3702e5e95a.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
-optimize_mesh_flags=4286
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

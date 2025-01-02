@@ -1,20 +1,22 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/monorail_trainPassenger.obj-4d1171e03f42ea89e00e872da88e3a0a.mesh"
+uid="uid://dktgnekk2jnvg"
+path="res://.godot/imported/monorail_trainPassenger.obj-4d1171e03f42ea89e00e872da88e3a0a.mesh"
 
 [deps]
 
-files=[ "res://.import/monorail_trainPassenger.obj-4d1171e03f42ea89e00e872da88e3a0a.mesh" ]
+files=["res://.godot/imported/monorail_trainPassenger.obj-4d1171e03f42ea89e00e872da88e3a0a.mesh"]
 
 source_file="res://Models/OBJ format/monorail_trainPassenger.obj"
-dest_files=[ "res://.import/monorail_trainPassenger.obj-4d1171e03f42ea89e00e872da88e3a0a.mesh", "res://.import/monorail_trainPassenger.obj-4d1171e03f42ea89e00e872da88e3a0a.mesh" ]
+dest_files=["res://.godot/imported/monorail_trainPassenger.obj-4d1171e03f42ea89e00e872da88e3a0a.mesh", "res://.godot/imported/monorail_trainPassenger.obj-4d1171e03f42ea89e00e872da88e3a0a.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
-optimize_mesh_flags=4286
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

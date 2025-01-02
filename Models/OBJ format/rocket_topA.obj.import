@@ -1,20 +1,22 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/rocket_topA.obj-63bfaff25c5e6754495392dbe51ae4b4.mesh"
+uid="uid://pru0ddk0hq4m"
+path="res://.godot/imported/rocket_topA.obj-63bfaff25c5e6754495392dbe51ae4b4.mesh"
 
 [deps]
 
-files=[ "res://.import/rocket_topA.obj-63bfaff25c5e6754495392dbe51ae4b4.mesh" ]
+files=["res://.godot/imported/rocket_topA.obj-63bfaff25c5e6754495392dbe51ae4b4.mesh"]
 
 source_file="res://Models/OBJ format/rocket_topA.obj"
-dest_files=[ "res://.import/rocket_topA.obj-63bfaff25c5e6754495392dbe51ae4b4.mesh", "res://.import/rocket_topA.obj-63bfaff25c5e6754495392dbe51ae4b4.mesh" ]
+dest_files=["res://.godot/imported/rocket_topA.obj-63bfaff25c5e6754495392dbe51ae4b4.mesh", "res://.godot/imported/rocket_topA.obj-63bfaff25c5e6754495392dbe51ae4b4.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
-optimize_mesh_flags=4286
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

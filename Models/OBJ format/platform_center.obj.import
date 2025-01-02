@@ -1,20 +1,22 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/platform_center.obj-981bb2e9ddd192cdcf2bada7f0caddfe.mesh"
+uid="uid://7rgqtsmlr2e3"
+path="res://.godot/imported/platform_center.obj-981bb2e9ddd192cdcf2bada7f0caddfe.mesh"
 
 [deps]
 
-files=[ "res://.import/platform_center.obj-981bb2e9ddd192cdcf2bada7f0caddfe.mesh" ]
+files=["res://.godot/imported/platform_center.obj-981bb2e9ddd192cdcf2bada7f0caddfe.mesh"]
 
 source_file="res://Models/OBJ format/platform_center.obj"
-dest_files=[ "res://.import/platform_center.obj-981bb2e9ddd192cdcf2bada7f0caddfe.mesh", "res://.import/platform_center.obj-981bb2e9ddd192cdcf2bada7f0caddfe.mesh" ]
+dest_files=["res://.godot/imported/platform_center.obj-981bb2e9ddd192cdcf2bada7f0caddfe.mesh", "res://.godot/imported/platform_center.obj-981bb2e9ddd192cdcf2bada7f0caddfe.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
-optimize_mesh_flags=4286
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

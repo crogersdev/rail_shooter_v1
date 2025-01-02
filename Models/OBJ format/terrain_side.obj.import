@@ -1,20 +1,22 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/terrain_side.obj-f7d6ecb7dea6c43607e9a54455f15a70.mesh"
+uid="uid://q35i2vjst0t3"
+path="res://.godot/imported/terrain_side.obj-f7d6ecb7dea6c43607e9a54455f15a70.mesh"
 
 [deps]
 
-files=[ "res://.import/terrain_side.obj-f7d6ecb7dea6c43607e9a54455f15a70.mesh" ]
+files=["res://.godot/imported/terrain_side.obj-f7d6ecb7dea6c43607e9a54455f15a70.mesh"]
 
 source_file="res://Models/OBJ format/terrain_side.obj"
-dest_files=[ "res://.import/terrain_side.obj-f7d6ecb7dea6c43607e9a54455f15a70.mesh", "res://.import/terrain_side.obj-f7d6ecb7dea6c43607e9a54455f15a70.mesh" ]
+dest_files=["res://.godot/imported/terrain_side.obj-f7d6ecb7dea6c43607e9a54455f15a70.mesh", "res://.godot/imported/terrain_side.obj-f7d6ecb7dea6c43607e9a54455f15a70.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
-optimize_mesh_flags=4286
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

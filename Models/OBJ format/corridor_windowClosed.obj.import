@@ -1,20 +1,22 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/corridor_windowClosed.obj-fdeab974e293c87b3533edf1f6f82062.mesh"
+uid="uid://d0647vfae3b0n"
+path="res://.godot/imported/corridor_windowClosed.obj-fdeab974e293c87b3533edf1f6f82062.mesh"
 
 [deps]
 
-files=[ "res://.import/corridor_windowClosed.obj-fdeab974e293c87b3533edf1f6f82062.mesh" ]
+files=["res://.godot/imported/corridor_windowClosed.obj-fdeab974e293c87b3533edf1f6f82062.mesh"]
 
 source_file="res://Models/OBJ format/corridor_windowClosed.obj"
-dest_files=[ "res://.import/corridor_windowClosed.obj-fdeab974e293c87b3533edf1f6f82062.mesh", "res://.import/corridor_windowClosed.obj-fdeab974e293c87b3533edf1f6f82062.mesh" ]
+dest_files=["res://.godot/imported/corridor_windowClosed.obj-fdeab974e293c87b3533edf1f6f82062.mesh", "res://.godot/imported/corridor_windowClosed.obj-fdeab974e293c87b3533edf1f6f82062.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
-optimize_mesh_flags=4286
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

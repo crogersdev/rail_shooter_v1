@@ -1,20 +1,22 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/corridor_cross.obj-0843295a036de6c578da0f5644f537bd.mesh"
+uid="uid://buwn4vdt5hai7"
+path="res://.godot/imported/corridor_cross.obj-0843295a036de6c578da0f5644f537bd.mesh"
 
 [deps]
 
-files=[ "res://.import/corridor_cross.obj-0843295a036de6c578da0f5644f537bd.mesh" ]
+files=["res://.godot/imported/corridor_cross.obj-0843295a036de6c578da0f5644f537bd.mesh"]
 
 source_file="res://Models/OBJ format/corridor_cross.obj"
-dest_files=[ "res://.import/corridor_cross.obj-0843295a036de6c578da0f5644f537bd.mesh", "res://.import/corridor_cross.obj-0843295a036de6c578da0f5644f537bd.mesh" ]
+dest_files=["res://.godot/imported/corridor_cross.obj-0843295a036de6c578da0f5644f537bd.mesh", "res://.godot/imported/corridor_cross.obj-0843295a036de6c578da0f5644f537bd.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
-optimize_mesh_flags=4286
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

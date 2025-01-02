@@ -1,20 +1,22 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/platform_cornerOpen.obj-dc4f5ce806b6d4d923e57f828e681b03.mesh"
+uid="uid://bw3fuk3jx60a5"
+path="res://.godot/imported/platform_cornerOpen.obj-dc4f5ce806b6d4d923e57f828e681b03.mesh"
 
 [deps]
 
-files=[ "res://.import/platform_cornerOpen.obj-dc4f5ce806b6d4d923e57f828e681b03.mesh" ]
+files=["res://.godot/imported/platform_cornerOpen.obj-dc4f5ce806b6d4d923e57f828e681b03.mesh"]
 
 source_file="res://Models/OBJ format/platform_cornerOpen.obj"
-dest_files=[ "res://.import/platform_cornerOpen.obj-dc4f5ce806b6d4d923e57f828e681b03.mesh", "res://.import/platform_cornerOpen.obj-dc4f5ce806b6d4d923e57f828e681b03.mesh" ]
+dest_files=["res://.godot/imported/platform_cornerOpen.obj-dc4f5ce806b6d4d923e57f828e681b03.mesh", "res://.godot/imported/platform_cornerOpen.obj-dc4f5ce806b6d4d923e57f828e681b03.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
-optimize_mesh_flags=4286
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

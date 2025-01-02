@@ -1,20 +1,22 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/meteor.obj-6810bc5754ef698a0193adf147a39f0e.mesh"
+uid="uid://djidv764qy7gu"
+path="res://.godot/imported/meteor.obj-6810bc5754ef698a0193adf147a39f0e.mesh"
 
 [deps]
 
-files=[ "res://.import/meteor.obj-6810bc5754ef698a0193adf147a39f0e.mesh" ]
+files=["res://.godot/imported/meteor.obj-6810bc5754ef698a0193adf147a39f0e.mesh"]
 
 source_file="res://Models/OBJ format/meteor.obj"
-dest_files=[ "res://.import/meteor.obj-6810bc5754ef698a0193adf147a39f0e.mesh", "res://.import/meteor.obj-6810bc5754ef698a0193adf147a39f0e.mesh" ]
+dest_files=["res://.godot/imported/meteor.obj-6810bc5754ef698a0193adf147a39f0e.mesh", "res://.godot/imported/meteor.obj-6810bc5754ef698a0193adf147a39f0e.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
-optimize_mesh_flags=4286
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

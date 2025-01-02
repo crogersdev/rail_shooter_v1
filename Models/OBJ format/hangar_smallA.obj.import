@@ -1,20 +1,22 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/hangar_smallA.obj-2592d12e976ffbac4ac68a334637c545.mesh"
+uid="uid://cpc47r7ehrhhp"
+path="res://.godot/imported/hangar_smallA.obj-2592d12e976ffbac4ac68a334637c545.mesh"
 
 [deps]
 
-files=[ "res://.import/hangar_smallA.obj-2592d12e976ffbac4ac68a334637c545.mesh" ]
+files=["res://.godot/imported/hangar_smallA.obj-2592d12e976ffbac4ac68a334637c545.mesh"]
 
 source_file="res://Models/OBJ format/hangar_smallA.obj"
-dest_files=[ "res://.import/hangar_smallA.obj-2592d12e976ffbac4ac68a334637c545.mesh", "res://.import/hangar_smallA.obj-2592d12e976ffbac4ac68a334637c545.mesh" ]
+dest_files=["res://.godot/imported/hangar_smallA.obj-2592d12e976ffbac4ac68a334637c545.mesh", "res://.godot/imported/hangar_smallA.obj-2592d12e976ffbac4ac68a334637c545.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
-optimize_mesh_flags=4286
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

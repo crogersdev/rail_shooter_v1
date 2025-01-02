@@ -1,20 +1,22 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/rail_middle.obj-7eff9da604ec8fbf63477dec4d35eece.mesh"
+uid="uid://bean62u0tw2f"
+path="res://.godot/imported/rail_middle.obj-7eff9da604ec8fbf63477dec4d35eece.mesh"
 
 [deps]
 
-files=[ "res://.import/rail_middle.obj-7eff9da604ec8fbf63477dec4d35eece.mesh" ]
+files=["res://.godot/imported/rail_middle.obj-7eff9da604ec8fbf63477dec4d35eece.mesh"]
 
 source_file="res://Models/OBJ format/rail_middle.obj"
-dest_files=[ "res://.import/rail_middle.obj-7eff9da604ec8fbf63477dec4d35eece.mesh", "res://.import/rail_middle.obj-7eff9da604ec8fbf63477dec4d35eece.mesh" ]
+dest_files=["res://.godot/imported/rail_middle.obj-7eff9da604ec8fbf63477dec4d35eece.mesh", "res://.godot/imported/rail_middle.obj-7eff9da604ec8fbf63477dec4d35eece.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
-optimize_mesh_flags=4286
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

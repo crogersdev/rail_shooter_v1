@@ -1,20 +1,22 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/desk_computer.obj-45b6ab1d4c8fff6d37a967126859995a.mesh"
+uid="uid://dyyumemwe4g03"
+path="res://.godot/imported/desk_computer.obj-45b6ab1d4c8fff6d37a967126859995a.mesh"
 
 [deps]
 
-files=[ "res://.import/desk_computer.obj-45b6ab1d4c8fff6d37a967126859995a.mesh" ]
+files=["res://.godot/imported/desk_computer.obj-45b6ab1d4c8fff6d37a967126859995a.mesh"]
 
 source_file="res://Models/OBJ format/desk_computer.obj"
-dest_files=[ "res://.import/desk_computer.obj-45b6ab1d4c8fff6d37a967126859995a.mesh", "res://.import/desk_computer.obj-45b6ab1d4c8fff6d37a967126859995a.mesh" ]
+dest_files=["res://.godot/imported/desk_computer.obj-45b6ab1d4c8fff6d37a967126859995a.mesh", "res://.godot/imported/desk_computer.obj-45b6ab1d4c8fff6d37a967126859995a.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
-optimize_mesh_flags=4286
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

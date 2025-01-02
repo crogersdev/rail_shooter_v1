@@ -1,20 +1,22 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/corridor_open.obj-34f23c8b6e55f7892a479115bad520ef.mesh"
+uid="uid://nkb124p3pq1d"
+path="res://.godot/imported/corridor_open.obj-34f23c8b6e55f7892a479115bad520ef.mesh"
 
 [deps]
 
-files=[ "res://.import/corridor_open.obj-34f23c8b6e55f7892a479115bad520ef.mesh" ]
+files=["res://.godot/imported/corridor_open.obj-34f23c8b6e55f7892a479115bad520ef.mesh"]
 
 source_file="res://Models/OBJ format/corridor_open.obj"
-dest_files=[ "res://.import/corridor_open.obj-34f23c8b6e55f7892a479115bad520ef.mesh", "res://.import/corridor_open.obj-34f23c8b6e55f7892a479115bad520ef.mesh" ]
+dest_files=["res://.godot/imported/corridor_open.obj-34f23c8b6e55f7892a479115bad520ef.mesh", "res://.godot/imported/corridor_open.obj-34f23c8b6e55f7892a479115bad520ef.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
-optimize_mesh_flags=4286
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

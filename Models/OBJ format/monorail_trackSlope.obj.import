@@ -1,20 +1,22 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/monorail_trackSlope.obj-f314681853e23075d1693c1f4e457f5d.mesh"
+uid="uid://llc6osyenshr"
+path="res://.godot/imported/monorail_trackSlope.obj-f314681853e23075d1693c1f4e457f5d.mesh"
 
 [deps]
 
-files=[ "res://.import/monorail_trackSlope.obj-f314681853e23075d1693c1f4e457f5d.mesh" ]
+files=["res://.godot/imported/monorail_trackSlope.obj-f314681853e23075d1693c1f4e457f5d.mesh"]
 
 source_file="res://Models/OBJ format/monorail_trackSlope.obj"
-dest_files=[ "res://.import/monorail_trackSlope.obj-f314681853e23075d1693c1f4e457f5d.mesh", "res://.import/monorail_trackSlope.obj-f314681853e23075d1693c1f4e457f5d.mesh" ]
+dest_files=["res://.godot/imported/monorail_trackSlope.obj-f314681853e23075d1693c1f4e457f5d.mesh", "res://.godot/imported/monorail_trackSlope.obj-f314681853e23075d1693c1f4e457f5d.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
-optimize_mesh_flags=4286
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

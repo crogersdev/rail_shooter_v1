@@ -1,6 +1,6 @@
-extends StaticBody
+extends StaticBody3D
 
-export var rotate_speed = 5.0
+@export var rotate_speed = 5.0
 
 var random_number_generator = RandomNumberGenerator.new()
 var rotate_speed_offset
